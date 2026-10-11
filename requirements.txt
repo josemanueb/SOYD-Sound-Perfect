@@ -1,0 +1,9 @@
+# Dependencias de SOYD Sound Perfect
+# Instalar con:  python -m pip install -r requirements.txt
+
+numpy>=1.24        # calculo numerico con arrays de audio
+scipy>=1.10        # filtros IIR (shelves, paso alto), convolucion FFT y remuestreo
+soundfile>=0.12    # lectura de MP3/WAV/FLAC/OGG/Opus/AIFF (libsndfile, sin ffmpeg)
+lameenc>=1.5       # codificador MP3 (LAME) con bitrate seleccionable
+mutagen>=1.45      # etiquetas ID3 y caratula del MP3/WAV/FLAC/Opus
+Pillow>=9.0        # solo para generar el icono (crear_icono.py)

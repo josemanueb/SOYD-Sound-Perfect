@@ -1,0 +1,24 @@
+INFORME DE LA DEMO - SOYD Sound Perfect
+======================================================================
+Perfil aplicado      : Amplio (recomendado)
+Duracion             : 19.2 s
+Tiempo de proceso    : 1.46 s  (13.2x tiempo real)
+Bitrate de salida    : 320 kbps
+
+ANTES  : pico -3.0 dBFS  |  RMS -18.6 dBFS  |  correlación estéreo 0.92 (mono OK)  |  balance 26/61/11/2 % (subgraves/graves-medios/medios/agudos)
+DESPUES: pico -3.6 dBFS  |  RMS -18.6 dBFS  |  correlación estéreo 0.83 (mono OK)  |  balance 34/54/9/2 % (subgraves/graves-medios/medios/agudos)
+
+Energia por banda:
+     20-120 Hz :  25.7 %  ->   34.3 %
+    120-500 Hz :  60.6 %  ->   53.8 %
+   500-2000 Hz :  11.4 %  ->    9.1 %
+  2000-6000 Hz :   0.6 %  ->    0.6 %
+  6000-16000 Hz :   1.2 %  ->    1.3 %
+
+Ancho estereo (side/mid): 0.198  ->  0.311
+Tamano MP3 original : 751.0 KB
+Tamano MP3 realzado : 751.0 KB
+
+Archivos generados en ./demo :
+  1_original.wav / 1_original.mp3   (entrada)
+  2_envolvente.mp3                  (salida realzada)

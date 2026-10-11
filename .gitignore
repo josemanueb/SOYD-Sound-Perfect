@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+#  SOYD Sound Perfect - archivos que NO se suben al repositorio
+# ---------------------------------------------------------------------------
+
+# El motor portatil (Python + librerias) pesa unos 210 MB y no debe entrar en
+# Git: haria los clones lentisimos y el historial no se puede limpiar despues.
+# Se distribuye como ZIP en la seccion "Releases" de GitHub.
+# Para reconstruirlo: ver "Crear la version portatil" en el README.
+runtime/
+
+# Caches de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Audio de demostracion generado (se regenera con: python demo.py)
+demo/*.wav
+
+# Temporales de la aplicacion (plan B cuando %TEMP% no es escribible)
+temporal/
+
+# Archivos temporales y de sistema
+*.tmp
+*~
+Thumbs.db
+desktop.ini
